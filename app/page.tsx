@@ -451,6 +451,36 @@ const tools = [
     href: "/responsive-tester",
     icon: "RWD",
   },
+  {
+    name: "JSON to YAML",
+    desc: "Convert between JSON and YAML formats instantly",
+    href: "/json-to-yaml",
+    icon: "Y/J",
+  },
+  {
+    name: "CSS Filter Generator",
+    desc: "Build CSS filter effects visually with blur, brightness, and more",
+    href: "/css-filter-generator",
+    icon: "Flt",
+  },
+  {
+    name: "Text Repeater",
+    desc: "Repeat text multiple times with custom separators and numbering",
+    href: "/text-repeater",
+    icon: "x N",
+  },
+  {
+    name: ".htaccess Generator",
+    desc: "Generate Apache .htaccess rules for redirects, caching, and security",
+    href: "/htaccess-generator",
+    icon: ".ht",
+  },
+  {
+    name: "TypeScript to JSON",
+    desc: "Generate sample JSON data from TypeScript interfaces",
+    href: "/typescript-to-json",
+    icon: "T>J",
+  },
 ];
 
 export default function Home() {

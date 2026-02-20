@@ -79,6 +79,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/json-to-typescript",
     "/string-hash",
     "/responsive-tester",
+    "/json-to-yaml",
+    "/css-filter-generator",
+    "/text-repeater",
+    "/htaccess-generator",
+    "/typescript-to-json",
     "/privacy",
   ];
 
