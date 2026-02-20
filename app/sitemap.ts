@@ -34,6 +34,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/http-status-codes",
     "/string-escape",
     "/ip-subnet-calculator",
+    "/qr-code-generator",
+    "/json-path-finder",
+    "/ascii-table",
+    "/box-shadow-generator",
+    "/toml-to-json",
     "/privacy",
   ];
 

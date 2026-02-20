@@ -16,7 +16,7 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 - Production URL: https://tools.elunari.uk
 - Vercel alias: https://devkit-dusky.vercel.app (legacy)
 
-## Current Tools (30)
+## Current Tools (35)
 1. `/json-formatter` — Format, validate, minify JSON
 2. `/base64` — Encode/decode Base64
 3. `/url-encoder` — URL percent-encoding
@@ -47,9 +47,14 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 28. `/http-status-codes` — Complete HTTP status code reference
 29. `/string-escape` — Escape/unescape for JSON, HTML, URL, XML, Regex & more
 30. `/ip-subnet-calculator` — CIDR, netmask, broadcast, host range calculator
+31. `/qr-code-generator` — Generate QR codes from text/URLs, download as PNG
+32. `/json-path-finder` — Query JSON data with JSONPath expressions
+33. `/ascii-table` — Complete ASCII reference (Dec/Hex/Oct/Bin)
+34. `/box-shadow-generator` — Visual CSS box shadow editor with presets
+35. `/toml-to-json` — Convert between TOML and JSON formats
 
 ## SEO Status
-- [x] Sitemap at /sitemap.xml (32 URLs including /privacy)
+- [x] Sitemap at /sitemap.xml (37 URLs including /privacy)
 - [x] Robots.txt allowing all crawlers
 - [x] Google Search Console verification (HTML meta tag, auto-verified)
 - [x] Sitemap submitted to Google Search Console (27 pages discovered, Status: Success)
@@ -58,7 +63,9 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 - [x] GitHub repo: github.com/markkennethbadilla/devkit
 - [ ] Security review pending (takes ~1-2 weeks)
 - [x] Bing Webmaster Tools — site imported from GSC, sitemap processing (auto-verified)
-- [x] JSON-LD structured data (WebSite + SoftwareApplication schemas on all 30 tool pages)
+- [x] JSON-LD structured data (WebSite + SoftwareApplication schemas on all 35 tool pages)
+- [x] IndexNow submitted (32 URLs) for faster Bing indexing
+- [x] IndexNow key file at /e7f3a9b2d4c6e8f0a1b3c5d7e9f1a3b5.txt
 - [ ] Google AdSense application (apply when security flag clears)
 
 ## Key Files
@@ -79,7 +86,7 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 - Wait for security review to clear (1-2 weeks)
 - Apply for Google AdSense when security flag clears
 - Add Open Graph images per tool
-- Consider batch 5: qr-code generator, toml-to-json, ascii-table, etc.
+- Consider batch 6: gradient-generator, flex-playground, meta-tag-generator, etc.
+- Re-submit IndexNow with batch 5 URLs
 - Monitor traffic via Vercel Analytics
 - Consider adding a second content site for more SEO surface
-- Re-submit sitemap to GSC after batch 4 deploy

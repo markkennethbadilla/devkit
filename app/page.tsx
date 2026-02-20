@@ -181,6 +181,36 @@ const tools = [
     href: "/ip-subnet-calculator",
     icon: "IP",
   },
+  {
+    name: "QR Code Generator",
+    desc: "Generate QR codes from text or URLs, download as PNG",
+    href: "/qr-code-generator",
+    icon: "QR",
+  },
+  {
+    name: "JSON Path Finder",
+    desc: "Query and extract JSON data using JSONPath expressions",
+    href: "/json-path-finder",
+    icon: "$..",
+  },
+  {
+    name: "ASCII Table",
+    desc: "Complete ASCII reference with Dec, Hex, Oct, and Binary",
+    href: "/ascii-table",
+    icon: "A#",
+  },
+  {
+    name: "Box Shadow Generator",
+    desc: "Create CSS box shadows visually with live preview",
+    href: "/box-shadow-generator",
+    icon: "[]",
+  },
+  {
+    name: "TOML to JSON",
+    desc: "Convert between TOML and JSON configuration formats",
+    href: "/toml-to-json",
+    icon: "T{}",
+  },
 ];
 
 export default function Home() {
