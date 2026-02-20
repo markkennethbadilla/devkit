@@ -16,7 +16,7 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 - Production URL: https://tools.elunari.uk
 - Vercel alias: https://devkit-dusky.vercel.app (legacy)
 
-## Current Tools (75)
+## Current Tools (80)
 1. `/json-formatter` — Format, validate, minify JSON
 2. `/base64` — Encode/decode Base64
 3. `/url-encoder` — URL percent-encoding
@@ -92,9 +92,14 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 73. `/json-to-typescript` — Generate TypeScript interfaces from JSON
 74. `/string-hash` — Hash text with MD5, SHA-1, SHA-256, SHA-384, SHA-512
 75. `/responsive-tester` — Preview websites at different screen sizes
+76. `/json-to-yaml` — Convert between JSON and YAML formats
+77. `/css-filter-generator` — Visual CSS filter editor with presets
+78. `/text-repeater` — Repeat text N times with separators
+79. `/htaccess-generator` — Generate Apache .htaccess rules
+80. `/typescript-to-json` — Generate sample JSON from TypeScript interfaces
 
 ## SEO Status
-- [x] Sitemap at /sitemap.xml (77 URLs including /privacy)
+- [x] Sitemap at /sitemap.xml (82 URLs including /privacy)
 - [x] Robots.txt allowing all crawlers
 - [x] Google Search Console verification (HTML meta tag, auto-verified)
 - [x] Sitemap submitted to Google Search Console (27 pages discovered, Status: Success)
@@ -103,8 +108,8 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 - [x] GitHub repo: github.com/markkennethbadilla/devkit
 - [ ] Security review pending (takes ~1-2 weeks)
 - [x] Bing Webmaster Tools — site imported from GSC, sitemap processing (auto-verified)
-- [x] JSON-LD structured data (WebSite + SoftwareApplication schemas on all 75 tool pages)
-- [x] IndexNow submitted (77 URLs) for faster Bing indexing
+- [x] JSON-LD structured data (WebSite + SoftwareApplication schemas on all 80 tool pages)
+- [x] IndexNow submitted (82 URLs) for faster Bing indexing
 - [x] IndexNow key file at /e7f3a9b2d4c6e8f0a1b3c5d7e9f1a3b5.txt
 - [ ] Google AdSense application (apply when security flag clears)
 
