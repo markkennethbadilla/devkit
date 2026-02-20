@@ -44,6 +44,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/meta-tag-generator",
     "/jwt-generator",
     "/svg-to-css",
+    "/grid-generator",
+    "/border-radius-generator",
+    "/text-to-binary",
+    "/json-schema-validator",
+    "/color-palette-generator",
     "/privacy",
   ];
 

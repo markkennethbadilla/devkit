@@ -241,6 +241,36 @@ const tools = [
     href: "/svg-to-css",
     icon: "SV",
   },
+  {
+    name: "Grid Generator",
+    desc: "Create CSS Grid layouts visually with columns, rows, and gaps",
+    href: "/grid-generator",
+    icon: "#G",
+  },
+  {
+    name: "Border Radius Generator",
+    desc: "Visual CSS border-radius editor with presets and live preview",
+    href: "/border-radius-generator",
+    icon: "BR",
+  },
+  {
+    name: "Text to Binary",
+    desc: "Convert text to binary, hex, decimal, and octal representations",
+    href: "/text-to-binary",
+    icon: "01",
+  },
+  {
+    name: "JSON Schema Validator",
+    desc: "Validate JSON data against a JSON Schema with error details",
+    href: "/json-schema-validator",
+    icon: "{}",
+  },
+  {
+    name: "Color Palette Generator",
+    desc: "Generate harmonious color palettes from any base color",
+    href: "/color-palette-generator",
+    icon: "CP",
+  },
 ];
 
 export default function Home() {
