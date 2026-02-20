@@ -74,6 +74,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/env-generator",
     "/image-compressor",
     "/js-minifier",
+    "/xml-formatter",
+    "/color-blindness-simulator",
+    "/json-to-typescript",
+    "/string-hash",
+    "/responsive-tester",
     "/privacy",
   ];
 

@@ -421,6 +421,36 @@ const tools = [
     href: "/js-minifier",
     icon: "JS",
   },
+  {
+    name: "XML Formatter",
+    desc: "Format, beautify, and minify XML documents with validation",
+    href: "/xml-formatter",
+    icon: "XML",
+  },
+  {
+    name: "Color Blindness Simulator",
+    desc: "Preview colors as seen by people with color vision deficiencies",
+    href: "/color-blindness-simulator",
+    icon: "Eye",
+  },
+  {
+    name: "JSON to TypeScript",
+    desc: "Generate TypeScript interfaces and types from JSON data",
+    href: "/json-to-typescript",
+    icon: "TS",
+  },
+  {
+    name: "String Hash Generator",
+    desc: "Hash text with MD5, SHA-1, SHA-256, SHA-384, SHA-512 simultaneously",
+    href: "/string-hash",
+    icon: "#H",
+  },
+  {
+    name: "Responsive Design Tester",
+    desc: "Preview websites at different device screen sizes",
+    href: "/responsive-tester",
+    icon: "RWD",
+  },
 ];
 
 export default function Home() {
