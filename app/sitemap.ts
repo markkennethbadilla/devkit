@@ -49,6 +49,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/text-to-binary",
     "/json-schema-validator",
     "/color-palette-generator",
+    "/aspect-ratio-calculator",
+    "/csv-to-json",
+    "/html-preview",
+    "/base-converter",
+    "/pixel-to-rem",
     "/privacy",
   ];
 

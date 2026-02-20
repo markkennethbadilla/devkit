@@ -271,6 +271,36 @@ const tools = [
     href: "/color-palette-generator",
     icon: "CP",
   },
+  {
+    name: "Aspect Ratio Calculator",
+    desc: "Calculate aspect ratios and resize dimensions proportionally",
+    href: "/aspect-ratio-calculator",
+    icon: "AR",
+  },
+  {
+    name: "CSV to JSON",
+    desc: "Convert CSV data to JSON with custom delimiters and formats",
+    href: "/csv-to-json",
+    icon: "CJ",
+  },
+  {
+    name: "HTML Preview",
+    desc: "Write HTML, CSS, and JS with a live preview sandbox",
+    href: "/html-preview",
+    icon: "</>",
+  },
+  {
+    name: "Base Converter",
+    desc: "Convert numbers between any base from 2 to 36",
+    href: "/base-converter",
+    icon: "Bx",
+  },
+  {
+    name: "PX to REM Converter",
+    desc: "Convert between CSS px, rem, and em units",
+    href: "/pixel-to-rem",
+    icon: "Rm",
+  },
 ];
 
 export default function Home() {
