@@ -69,6 +69,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/json-tree-viewer",
     "/text-to-handwriting",
     "/url-parser",
+    "/character-counter",
+    "/css-animation-generator",
+    "/env-generator",
+    "/image-compressor",
+    "/js-minifier",
     "/privacy",
   ];
 

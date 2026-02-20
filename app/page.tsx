@@ -391,6 +391,36 @@ const tools = [
     href: "/url-parser",
     icon: "URL",
   },
+  {
+    name: "Character Counter",
+    desc: "Count characters, words, and analyze frequency distribution",
+    href: "/character-counter",
+    icon: "Abc",
+  },
+  {
+    name: "CSS Animation Generator",
+    desc: "Build CSS keyframe animations visually with live preview and presets",
+    href: "/css-animation-generator",
+    icon: "Anm",
+  },
+  {
+    name: ".env Generator",
+    desc: "Build .env files with key-value pairs, comments, sections, and templates",
+    href: "/env-generator",
+    icon: ".Ev",
+  },
+  {
+    name: "Image Compressor",
+    desc: "Compress and resize images client-side with quality and format controls",
+    href: "/image-compressor",
+    icon: "Img",
+  },
+  {
+    name: "JS Minifier",
+    desc: "Minify or beautify JavaScript code with size comparison",
+    href: "/js-minifier",
+    icon: "JS",
+  },
 ];
 
 export default function Home() {
