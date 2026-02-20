@@ -16,7 +16,7 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 - Production URL: https://tools.elunari.uk
 - Vercel alias: https://devkit-dusky.vercel.app (legacy)
 
-## Current Tools (20)
+## Current Tools (25)
 1. `/json-formatter` — Format, validate, minify JSON
 2. `/base64` — Encode/decode Base64
 3. `/url-encoder` — URL percent-encoding
@@ -37,9 +37,14 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 18. `/json-to-csv` — Convert JSON arrays to CSV and vice versa
 19. `/number-base-converter` — Binary, octal, decimal, hex conversion (BigInt)
 20. `/sql-formatter` — Format/beautify/minify SQL queries
+21. `/cron-parser` — Parse, explain, generate cron schedules with next runs
+22. `/yaml-to-json` — Convert between YAML and JSON formats
+23. `/image-to-base64` — Convert images to Base64/data URIs (drag & drop)
+24. `/html-to-markdown` — Convert between HTML and Markdown
+25. `/text-sort-dedupe` — Sort lines, remove duplicates, trim & filter
 
 ## SEO Status
-- [x] Sitemap at /sitemap.xml (22 URLs including /privacy)
+- [x] Sitemap at /sitemap.xml (27 URLs including /privacy)
 - [x] Robots.txt allowing all crawlers
 - [x] Google Search Console verification (HTML meta tag, auto-verified)
 - [x] Sitemap submitted to Google Search Console (11 pages discovered, Status: Success)
@@ -49,7 +54,7 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 - [x] Re-submitted sitemap to GSC (17 URLs discovered, Status: Success)
 - [ ] Security review pending (takes ~1-2 weeks)
 - [x] Bing Webmaster Tools — site imported from GSC, sitemap processing (auto-verified)
-- [x] JSON-LD structured data (WebSite + SoftwareApplication schemas on all 20 tool pages)
+- [x] JSON-LD structured data (WebSite + SoftwareApplication schemas on all 25 tool pages)
 - [ ] Google AdSense application (apply when security flag clears)
 
 ## Key Files

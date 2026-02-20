@@ -121,6 +121,36 @@ const tools = [
     href: "/sql-formatter",
     icon: "SQL",
   },
+  {
+    name: "Cron Expression Parser",
+    desc: "Parse, explain, and generate cron schedules with next run times",
+    href: "/cron-parser",
+    icon: "⏰",
+  },
+  {
+    name: "YAML to JSON",
+    desc: "Convert between YAML and JSON formats instantly",
+    href: "/yaml-to-json",
+    icon: "Y{}",
+  },
+  {
+    name: "Image to Base64",
+    desc: "Convert images to Base64 strings and data URIs",
+    href: "/image-to-base64",
+    icon: "🖼",
+  },
+  {
+    name: "HTML to Markdown",
+    desc: "Convert between HTML and Markdown formats",
+    href: "/html-to-markdown",
+    icon: "H↓",
+  },
+  {
+    name: "Text Sort & Dedupe",
+    desc: "Sort lines, remove duplicates, trim & filter text",
+    href: "/text-sort-dedupe",
+    icon: "↕",
+  },
 ];
 
 export default function Home() {

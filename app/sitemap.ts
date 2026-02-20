@@ -24,6 +24,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/json-to-csv",
     "/number-base-converter",
     "/sql-formatter",
+    "/cron-parser",
+    "/yaml-to-json",
+    "/image-to-base64",
+    "/html-to-markdown",
+    "/text-sort-dedupe",
     "/privacy",
   ];
 
