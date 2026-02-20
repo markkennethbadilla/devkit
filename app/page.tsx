@@ -151,6 +151,36 @@ const tools = [
     href: "/text-sort-dedupe",
     icon: "↕",
   },
+  {
+    name: "Slug Generator",
+    desc: "Generate clean URL slugs from any text with Unicode support",
+    href: "/slug-generator",
+    icon: "/—",
+  },
+  {
+    name: "Chmod Calculator",
+    desc: "Visual Unix file permission calculator with octal & symbolic",
+    href: "/chmod-calculator",
+    icon: "rwx",
+  },
+  {
+    name: "HTTP Status Codes",
+    desc: "Complete reference of HTTP status codes with descriptions",
+    href: "/http-status-codes",
+    icon: "200",
+  },
+  {
+    name: "String Escape/Unescape",
+    desc: "Escape & unescape strings for JSON, HTML, URL, XML, Regex & more",
+    href: "/string-escape",
+    icon: "\\n",
+  },
+  {
+    name: "IP Subnet Calculator",
+    desc: "Calculate CIDR, netmask, broadcast, and host range",
+    href: "/ip-subnet-calculator",
+    icon: "IP",
+  },
 ];
 
 export default function Home() {

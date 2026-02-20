@@ -29,6 +29,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/image-to-base64",
     "/html-to-markdown",
     "/text-sort-dedupe",
+    "/slug-generator",
+    "/chmod-calculator",
+    "/http-status-codes",
+    "/string-escape",
+    "/ip-subnet-calculator",
     "/privacy",
   ];
 

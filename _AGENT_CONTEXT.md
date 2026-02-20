@@ -1,6 +1,6 @@
 # DevKit — Agent Context (Living Document)
 
-> Last updated: 2026-02-21
+> Last updated: 2026-02-22
 
 ## Overview
 SEO-optimized developer tools site for passive ad revenue. All tools run client-side (privacy-first, no backend).
@@ -16,7 +16,7 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 - Production URL: https://tools.elunari.uk
 - Vercel alias: https://devkit-dusky.vercel.app (legacy)
 
-## Current Tools (25)
+## Current Tools (30)
 1. `/json-formatter` — Format, validate, minify JSON
 2. `/base64` — Encode/decode Base64
 3. `/url-encoder` — URL percent-encoding
@@ -42,19 +42,23 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 23. `/image-to-base64` — Convert images to Base64/data URIs (drag & drop)
 24. `/html-to-markdown` — Convert between HTML and Markdown
 25. `/text-sort-dedupe` — Sort lines, remove duplicates, trim & filter
+26. `/slug-generator` — Generate clean URL slugs with Unicode support
+27. `/chmod-calculator` — Visual Unix file permission calculator
+28. `/http-status-codes` — Complete HTTP status code reference
+29. `/string-escape` — Escape/unescape for JSON, HTML, URL, XML, Regex & more
+30. `/ip-subnet-calculator` — CIDR, netmask, broadcast, host range calculator
 
 ## SEO Status
-- [x] Sitemap at /sitemap.xml (27 URLs including /privacy)
+- [x] Sitemap at /sitemap.xml (32 URLs including /privacy)
 - [x] Robots.txt allowing all crawlers
 - [x] Google Search Console verification (HTML meta tag, auto-verified)
-- [x] Sitemap submitted to Google Search Console (11 pages discovered, Status: Success)
+- [x] Sitemap submitted to Google Search Console (27 pages discovered, Status: Success)
 - [x] Security review requested for false "Deceptive pages" flag (pending review)
 - [x] Privacy policy at /privacy (required for AdSense)
 - [x] GitHub repo: github.com/markkennethbadilla/devkit
-- [x] Re-submitted sitemap to GSC (17 URLs discovered, Status: Success)
 - [ ] Security review pending (takes ~1-2 weeks)
 - [x] Bing Webmaster Tools — site imported from GSC, sitemap processing (auto-verified)
-- [x] JSON-LD structured data (WebSite + SoftwareApplication schemas on all 25 tool pages)
+- [x] JSON-LD structured data (WebSite + SoftwareApplication schemas on all 30 tool pages)
 - [ ] Google AdSense application (apply when security flag clears)
 
 ## Key Files
@@ -75,6 +79,7 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 - Wait for security review to clear (1-2 weeks)
 - Apply for Google AdSense when security flag clears
 - Add Open Graph images per tool
-- Consider more tools: cron parser, image-to-base64, qr-code generator, etc.
+- Consider batch 5: qr-code generator, toml-to-json, ascii-table, etc.
 - Monitor traffic via Vercel Analytics
-- Consider adding a second site for more SEO surface
+- Consider adding a second content site for more SEO surface
+- Re-submit sitemap to GSC after batch 4 deploy
