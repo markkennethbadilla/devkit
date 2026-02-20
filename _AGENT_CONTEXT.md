@@ -41,11 +41,11 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 - [x] Security review requested for false "Deceptive pages" flag (pending review)
 - [x] Privacy policy at /privacy (required for AdSense)
 - [x] GitHub repo: github.com/markkennethbadilla/devkit
-- [ ] Re-submit sitemap (now 17 URLs vs 11 originally submitted)
+- [x] Re-submitted sitemap to GSC (17 URLs discovered, Status: Success)
 - [ ] Security review pending (takes ~1-2 weeks)
 - [x] Bing Webmaster Tools — site imported from GSC, sitemap processing (auto-verified)
+- [x] JSON-LD structured data (WebSite + SoftwareApplication schemas on all 15 tool pages)
 - [ ] Google AdSense application (apply when security flag clears)
-- [ ] Structured data (JSON-LD) for tool pages
 
 ## Key Files
 - `app/layout.tsx` — Root layout, nav, footer, SEO metadata
@@ -62,11 +62,9 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 - DNS: CNAME `tools` → `cname.vercel-dns.com` (DNS only, not proxied)
 
 ## Next Steps
-- Re-submit sitemap to Google Search Console (now 17 pages)
-- Submit to Bing Webmaster Tools for additional search traffic
 - Wait for security review to clear (1-2 weeks)
 - Apply for Google AdSense when security flag clears
-- Add structured data (JSON-LD) for rich search results
 - Add Open Graph images per tool
 - Consider more tools: cron parser, number base converter, JSON-to-CSV, etc.
 - Monitor traffic via Vercel Analytics
+- Consider adding a second site for more SEO surface
