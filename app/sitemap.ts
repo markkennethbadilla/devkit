@@ -14,6 +14,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/regex-tester",
     "/lorem-ipsum",
     "/diff-checker",
+    "/markdown-preview",
+    "/timestamp-converter",
+    "/css-minifier",
+    "/html-entity-encoder",
+    "/word-counter",
     "/privacy",
   ];
 

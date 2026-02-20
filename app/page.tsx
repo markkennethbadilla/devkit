@@ -61,6 +61,36 @@ const tools = [
     href: "/diff-checker",
     icon: "±",
   },
+  {
+    name: "Markdown Preview",
+    desc: "Write Markdown and preview rendered HTML in real time",
+    href: "/markdown-preview",
+    icon: "M↓",
+  },
+  {
+    name: "Timestamp Converter",
+    desc: "Convert between Unix timestamps and human-readable dates",
+    href: "/timestamp-converter",
+    icon: "⏱",
+  },
+  {
+    name: "CSS Minifier",
+    desc: "Compress CSS to reduce file size or beautify for readability",
+    href: "/css-minifier",
+    icon: "{ }",
+  },
+  {
+    name: "HTML Entity Encoder",
+    desc: "Encode and decode HTML entities and special characters",
+    href: "/html-entity-encoder",
+    icon: "&;",
+  },
+  {
+    name: "Word Counter",
+    desc: "Count words, characters, sentences with reading time estimate",
+    href: "/word-counter",
+    icon: "Wc",
+  },
 ];
 
 export default function Home() {
