@@ -1,7 +1,22 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
+import ToolJsonLd from "@/app/components/ToolJsonLd";
+
 export const metadata: Metadata = {
   title: "Base64 Encoder / Decoder — Encode & Decode Base64 Online",
-  description: "Free online Base64 encoder and decoder. Convert text to Base64 or decode Base64 to text. Supports UTF-8. Runs in your browser.",
+  description:
+    "Free online Base64 encoder and decoder. Convert text to Base64 or decode Base64 to text. Supports UTF-8. Runs in your browser.",
   keywords: ["base64 encode", "base64 decode", "base64 converter", "base64 online", "text to base64"],
 };
-export default function Layout({ children }: { children: React.ReactNode }) { return children; }
+
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return (
+    <>
+      <ToolJsonLd
+        name="Base64 Encoder / Decoder"
+        description="Free online Base64 encoder and decoder. Convert text to Base64 or decode Base64 to text. Supports UTF-8. Runs in your browser."
+        url="/base64"
+      />
+      {children}
+    </>
+  );
+}

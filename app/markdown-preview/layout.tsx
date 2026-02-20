@@ -1,7 +1,22 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
+import ToolJsonLd from "@/app/components/ToolJsonLd";
+
 export const metadata: Metadata = {
-  title: "Markdown Preview — Live Markdown to HTML Converter",
-  description: "Free online Markdown preview and editor. Write Markdown and see live HTML output. Supports headings, lists, code blocks, tables, and more. No data leaves your browser.",
-  keywords: ["markdown preview", "markdown to html", "markdown editor online", "markdown converter", "live markdown preview"],
+  title: "Markdown Preview — Live Markdown Editor Online - DevKit",
+  description:
+    "Write Markdown and preview rendered HTML in real time. Free online Markdown editor with live preview.",
+  keywords: ["markdown preview", "markdown editor", "markdown to html", "live markdown preview", "markdown renderer", "online markdown editor"],
 };
-export default function Layout({ children }: { children: React.ReactNode }) { return children; }
+
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return (
+    <>
+      <ToolJsonLd
+        name="Markdown Preview"
+        description="Write Markdown and preview rendered HTML in real time. Free online Markdown editor with live preview."
+        url="/markdown-preview"
+      />
+      {children}
+    </>
+  );
+}

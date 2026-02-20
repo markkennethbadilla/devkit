@@ -1,19 +1,22 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
+import ToolJsonLd from "@/app/components/ToolJsonLd";
 
 export const metadata: Metadata = {
   title: "JSON Formatter & Validator — Format, Minify, Validate JSON Online",
   description:
     "Free online JSON formatter, validator, and minifier. Pretty-print or compress JSON data instantly. Runs in your browser — no data sent to servers.",
-  keywords: [
-    "json formatter",
-    "json validator",
-    "json minifier",
-    "pretty print json",
-    "format json online",
-    "json beautifier",
-  ],
+  keywords: ["json formatter", "json validator", "json minifier", "pretty print json", "format json online", "json beautifier"],
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-  return children;
+  return (
+    <>
+      <ToolJsonLd
+        name="JSON Formatter & Validator"
+        description="Free online JSON formatter, validator, and minifier. Pretty-print or compress JSON data instantly. Runs in your browser — no data sent to servers."
+        url="/json-formatter"
+      />
+      {children}
+    </>
+  );
 }

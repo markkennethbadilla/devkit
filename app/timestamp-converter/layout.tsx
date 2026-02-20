@@ -1,7 +1,22 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
+import ToolJsonLd from "@/app/components/ToolJsonLd";
+
 export const metadata: Metadata = {
-  title: "Unix Timestamp Converter — Epoch Time Converter Online",
-  description: "Free online Unix timestamp converter. Convert between Unix epoch time and human-readable dates. Supports seconds and milliseconds. Runs in your browser.",
-  keywords: ["unix timestamp converter", "epoch converter", "timestamp to date", "date to timestamp", "epoch time converter online"],
+  title: "Unix Timestamp Converter — Epoch to Date Online - DevKit",
+  description:
+    "Convert between Unix timestamps and human-readable dates. Live clock, bidirectional conversion, supports seconds and milliseconds.",
+  keywords: ["unix timestamp converter", "epoch converter", "timestamp to date", "date to timestamp", "unix time converter", "epoch time"],
 };
-export default function Layout({ children }: { children: React.ReactNode }) { return children; }
+
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return (
+    <>
+      <ToolJsonLd
+        name="Timestamp Converter"
+        description="Convert between Unix timestamps and human-readable dates. Live clock, bidirectional conversion, supports seconds and milliseconds."
+        url="/timestamp-converter"
+      />
+      {children}
+    </>
+  );
+}

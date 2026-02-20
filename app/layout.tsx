@@ -37,6 +37,24 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "DevKit",
+              url: "https://tools.elunari.uk",
+              description:
+                "Free, fast, privacy-first developer tools that run entirely in your browser.",
+              publisher: {
+                "@type": "Organization",
+                name: "Elunari",
+                url: "https://elunari.uk",
+              },
+            }),
+          }}
+        />
         <nav className="border-b border-[var(--border)] sticky top-0 bg-[var(--bg)]/80 backdrop-blur-md z-50">
           <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
             <a href="/" className="text-lg font-bold tracking-tight">

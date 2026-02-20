@@ -43,7 +43,7 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 - [x] GitHub repo: github.com/markkennethbadilla/devkit
 - [ ] Re-submit sitemap (now 17 URLs vs 11 originally submitted)
 - [ ] Security review pending (takes ~1-2 weeks)
-- [ ] Bing Webmaster Tools submission
+- [x] Bing Webmaster Tools — site imported from GSC, sitemap processing (auto-verified)
 - [ ] Google AdSense application (apply when security flag clears)
 - [ ] Structured data (JSON-LD) for tool pages
 
