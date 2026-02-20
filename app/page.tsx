@@ -331,6 +331,36 @@ const tools = [
     href: "/emoji-picker",
     icon: "Em",
   },
+  {
+    name: "JSON Compare",
+    desc: "Deep-compare two JSON objects and highlight every difference",
+    href: "/json-compare",
+    icon: "<>",
+  },
+  {
+    name: "OG Image Preview",
+    desc: "Preview how your page looks on Facebook, Twitter, Google, and Slack",
+    href: "/og-preview",
+    icon: "OG",
+  },
+  {
+    name: "Git Command Reference",
+    desc: "Find the right git command for any task with search and categories",
+    href: "/git-commands",
+    icon: "Git",
+  },
+  {
+    name: "Placeholder Image",
+    desc: "Generate placeholder images with custom size, colors, and text",
+    href: "/placeholder-image",
+    icon: "Img",
+  },
+  {
+    name: "Crontab Generator",
+    desc: "Build cron schedule expressions visually with a friendly interface",
+    href: "/crontab-generator",
+    icon: "Crn",
+  },
 ];
 
 export default function Home() {

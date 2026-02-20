@@ -59,6 +59,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/data-uri-generator",
     "/tailwind-converter",
     "/emoji-picker",
+    "/json-compare",
+    "/og-preview",
+    "/git-commands",
+    "/placeholder-image",
+    "/crontab-generator",
     "/privacy",
   ];
 
