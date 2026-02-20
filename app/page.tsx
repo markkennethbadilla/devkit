@@ -211,6 +211,36 @@ const tools = [
     href: "/toml-to-json",
     icon: "T{}",
   },
+  {
+    name: "Gradient Generator",
+    desc: "Create CSS linear, radial, and conic gradients visually",
+    href: "/gradient-generator",
+    icon: "G~",
+  },
+  {
+    name: "Flexbox Playground",
+    desc: "Interactive CSS Flexbox layout builder with live preview",
+    href: "/flexbox-playground",
+    icon: "FL",
+  },
+  {
+    name: "Meta Tag Generator",
+    desc: "Generate HTML meta tags for SEO, Open Graph, and Twitter",
+    href: "/meta-tag-generator",
+    icon: "<>",
+  },
+  {
+    name: "JWT Generator",
+    desc: "Create signed JSON Web Tokens with HMAC-SHA256",
+    href: "/jwt-generator",
+    icon: "JW",
+  },
+  {
+    name: "SVG to CSS",
+    desc: "Convert inline SVG to CSS background-image data URI",
+    href: "/svg-to-css",
+    icon: "SV",
+  },
 ];
 
 export default function Home() {

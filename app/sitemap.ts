@@ -39,6 +39,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/ascii-table",
     "/box-shadow-generator",
     "/toml-to-json",
+    "/gradient-generator",
+    "/flexbox-playground",
+    "/meta-tag-generator",
+    "/jwt-generator",
+    "/svg-to-css",
     "/privacy",
   ];
 
