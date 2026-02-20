@@ -301,6 +301,36 @@ const tools = [
     href: "/pixel-to-rem",
     icon: "Rm",
   },
+  {
+    name: "HTTP Headers Reference",
+    desc: "Complete HTTP headers reference with examples and categories",
+    href: "/http-headers",
+    icon: "Hd",
+  },
+  {
+    name: "CSS Units Converter",
+    desc: "Convert between all CSS units: px, em, rem, vh, vw, and more",
+    href: "/css-units-converter",
+    icon: "Un",
+  },
+  {
+    name: "Data URI Generator",
+    desc: "Convert files to Base64 data URIs for HTML and CSS embedding",
+    href: "/data-uri-generator",
+    icon: "DU",
+  },
+  {
+    name: "CSS to Tailwind",
+    desc: "Convert CSS declarations to Tailwind CSS utility classes",
+    href: "/tailwind-converter",
+    icon: "TW",
+  },
+  {
+    name: "Emoji Picker",
+    desc: "Search, browse, and copy emojis by name or category",
+    href: "/emoji-picker",
+    icon: "Em",
+  },
 ];
 
 export default function Home() {

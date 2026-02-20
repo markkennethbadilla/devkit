@@ -54,6 +54,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/html-preview",
     "/base-converter",
     "/pixel-to-rem",
+    "/http-headers",
+    "/css-units-converter",
+    "/data-uri-generator",
+    "/tailwind-converter",
+    "/emoji-picker",
     "/privacy",
   ];
 
