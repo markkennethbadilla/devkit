@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     template: "%s | DevKit",
   },
   description:
-    "Free, fast, privacy-first developer tools. JSON formatter, Base64 encoder, UUID generator, hash generator, regex tester, and more. No ads, no tracking, runs entirely in your browser.",
+    "Free, fast, privacy-first developer tools. JSON formatter, Base64 encoder, UUID generator, hash generator, regex tester, and 80+ more tools. Runs entirely in your browser.",
   keywords: [
     "developer tools",
     "json formatter",
@@ -36,6 +36,13 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7465302364385209"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className="min-h-screen antialiased">
         <script
           type="application/ld+json"
@@ -73,8 +80,17 @@ export default function RootLayout({
           <p>
             DevKit — Free developer tools. No tracking. Runs in your browser.
           </p>
-          <p className="mt-2">
+          <p className="mt-2 space-x-3">
             <a href="/privacy" className="hover:text-[var(--fg)] transition-colors">Privacy Policy</a>
+            <span>·</span>
+            <a
+              href="https://buymeacoffee.com/moonlitcapy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[var(--fg)] transition-colors"
+            >
+              ☕ Support DevKit
+            </a>
           </p>
         </footer>
       </body>
