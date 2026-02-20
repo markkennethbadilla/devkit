@@ -361,6 +361,36 @@ const tools = [
     href: "/crontab-generator",
     icon: "Crn",
   },
+  {
+    name: "CSS Clip-Path",
+    desc: "Create CSS clip-path shapes visually with 16+ presets and live preview",
+    href: "/css-clip-path",
+    icon: "Clp",
+  },
+  {
+    name: "HTML Table Generator",
+    desc: "Build HTML tables visually with inline editing and style options",
+    href: "/html-table-generator",
+    icon: "Tbl",
+  },
+  {
+    name: "JSON Tree Viewer",
+    desc: "Explore JSON as a collapsible interactive tree with path copying",
+    href: "/json-tree-viewer",
+    icon: "{ }",
+  },
+  {
+    name: "Text to Handwriting",
+    desc: "Convert text to handwriting-style images with customizable paper and ink",
+    href: "/text-to-handwriting",
+    icon: "Hw",
+  },
+  {
+    name: "URL Parser",
+    desc: "Break down URLs into protocol, host, path, query params, and hash",
+    href: "/url-parser",
+    icon: "URL",
+  },
 ];
 
 export default function Home() {

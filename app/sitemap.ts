@@ -64,6 +64,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/git-commands",
     "/placeholder-image",
     "/crontab-generator",
+    "/css-clip-path",
+    "/html-table-generator",
+    "/json-tree-viewer",
+    "/text-to-handwriting",
+    "/url-parser",
     "/privacy",
   ];
 
