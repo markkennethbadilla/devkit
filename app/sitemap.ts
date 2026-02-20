@@ -19,6 +19,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/css-minifier",
     "/html-entity-encoder",
     "/word-counter",
+    "/text-case-converter",
+    "/password-generator",
+    "/json-to-csv",
+    "/number-base-converter",
+    "/sql-formatter",
     "/privacy",
   ];
 

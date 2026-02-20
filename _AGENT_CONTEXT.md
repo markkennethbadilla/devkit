@@ -16,7 +16,7 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 - Production URL: https://tools.elunari.uk
 - Vercel alias: https://devkit-dusky.vercel.app (legacy)
 
-## Current Tools (15)
+## Current Tools (20)
 1. `/json-formatter` — Format, validate, minify JSON
 2. `/base64` — Encode/decode Base64
 3. `/url-encoder` — URL percent-encoding
@@ -32,9 +32,14 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 13. `/css-minifier` — Minify/beautify CSS with byte savings stats
 14. `/html-entity-encoder` — Encode/decode HTML entities (named + numeric)
 15. `/word-counter` — Words, chars, sentences, paragraphs, reading time, top words
+16. `/text-case-converter` — UPPER, lower, Title, camelCase, snake_case, kebab-case & more
+17. `/password-generator` — Cryptographically secure passwords with strength meter
+18. `/json-to-csv` — Convert JSON arrays to CSV and vice versa
+19. `/number-base-converter` — Binary, octal, decimal, hex conversion (BigInt)
+20. `/sql-formatter` — Format/beautify/minify SQL queries
 
 ## SEO Status
-- [x] Sitemap at /sitemap.xml (17 URLs including /privacy)
+- [x] Sitemap at /sitemap.xml (22 URLs including /privacy)
 - [x] Robots.txt allowing all crawlers
 - [x] Google Search Console verification (HTML meta tag, auto-verified)
 - [x] Sitemap submitted to Google Search Console (11 pages discovered, Status: Success)
@@ -44,7 +49,7 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 - [x] Re-submitted sitemap to GSC (17 URLs discovered, Status: Success)
 - [ ] Security review pending (takes ~1-2 weeks)
 - [x] Bing Webmaster Tools — site imported from GSC, sitemap processing (auto-verified)
-- [x] JSON-LD structured data (WebSite + SoftwareApplication schemas on all 15 tool pages)
+- [x] JSON-LD structured data (WebSite + SoftwareApplication schemas on all 20 tool pages)
 - [ ] Google AdSense application (apply when security flag clears)
 
 ## Key Files
@@ -65,6 +70,6 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 - Wait for security review to clear (1-2 weeks)
 - Apply for Google AdSense when security flag clears
 - Add Open Graph images per tool
-- Consider more tools: cron parser, number base converter, JSON-to-CSV, etc.
+- Consider more tools: cron parser, image-to-base64, qr-code generator, etc.
 - Monitor traffic via Vercel Analytics
 - Consider adding a second site for more SEO surface

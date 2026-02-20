@@ -91,6 +91,36 @@ const tools = [
     href: "/word-counter",
     icon: "Wc",
   },
+  {
+    name: "Text Case Converter",
+    desc: "Convert text between UPPER, lower, Title, camelCase, snake_case & more",
+    href: "/text-case-converter",
+    icon: "Aa",
+  },
+  {
+    name: "Password Generator",
+    desc: "Generate cryptographically secure random passwords",
+    href: "/password-generator",
+    icon: "🔑",
+  },
+  {
+    name: "JSON to CSV",
+    desc: "Convert JSON arrays to CSV and CSV back to JSON",
+    href: "/json-to-csv",
+    icon: "📊",
+  },
+  {
+    name: "Number Base Converter",
+    desc: "Convert between binary, octal, decimal, and hexadecimal",
+    href: "/number-base-converter",
+    icon: "0x",
+  },
+  {
+    name: "SQL Formatter",
+    desc: "Format, beautify, and minify SQL queries",
+    href: "/sql-formatter",
+    icon: "SQL",
+  },
 ];
 
 export default function Home() {
