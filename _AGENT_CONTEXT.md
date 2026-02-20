@@ -29,11 +29,17 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 10. `/diff-checker` — LCS-based line diff with color coding
 
 ## SEO Status
-- [x] Sitemap at /sitemap.xml (11 URLs)
+- [x] Sitemap at /sitemap.xml (12 URLs including /privacy)
 - [x] Robots.txt allowing all crawlers
-- [x] Google Search Console verification meta tag deployed
-- [ ] Google Search Console property verification (MCP was down, need to click Verify)
-- [ ] Google AdSense (needs traffic first — apply when >1000 monthly visitors)
+- [x] Google Search Console verification (HTML meta tag, auto-verified)
+- [x] Sitemap submitted to Google Search Console (11 pages discovered, Status: Success)
+- [x] Security review requested for false "Deceptive pages" flag (pending review)
+- [x] Privacy policy at /privacy (required for AdSense)
+- [x] GitHub repo: github.com/markkennethbadilla/devkit
+- [ ] Security review pending (takes ~1-2 weeks)
+- [ ] Bing Webmaster Tools submission
+- [ ] Google AdSense application (apply when security flag clears)
+- [ ] Structured data (JSON-LD) for tool pages
 
 ## Key Files
 - `app/layout.tsx` — Root layout, nav, footer, SEO metadata
@@ -50,8 +56,10 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 - DNS: CNAME `tools` → `cname.vercel-dns.com` (DNS only, not proxied)
 
 ## Next Steps
-- Complete Google Search Console verification (click Verify when MCP is available)
-- Add more tools to increase SEO surface area (markdown preview, timestamp converter, cron parser, etc.)
-- Apply for Google AdSense when traffic builds
-- Add structured data (JSON-LD) for tool pages
-- Consider adding Open Graph images per tool
+- Wait for security review to clear (1-2 weeks)
+- Apply for Google AdSense when security flag clears
+- Submit to Bing Webmaster Tools for additional search traffic
+- Add more tools to increase SEO surface (markdown preview, timestamp converter, cron parser, etc.)
+- Add structured data (JSON-LD) for rich search results
+- Add Open Graph images per tool
+- Monitor traffic via Vercel Analytics
