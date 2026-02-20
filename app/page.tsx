@@ -481,6 +481,36 @@ const tools = [
     href: "/typescript-to-json",
     icon: "T>J",
   },
+  {
+    name: "HTML Minifier",
+    desc: "Minify HTML by removing whitespace, comments, and optional tags",
+    href: "/html-minifier",
+    icon: "</>m",
+  },
+  {
+    name: "JWT Builder",
+    desc: "Build JSON Web Tokens by selecting claims and algorithm",
+    href: "/jwt-builder",
+    icon: "JWTb",
+  },
+  {
+    name: "CSV Viewer",
+    desc: "View and sort CSV data in a searchable table",
+    href: "/csv-viewer",
+    icon: "CSV",
+  },
+  {
+    name: "Base32 Encoder",
+    desc: "Encode and decode Base32 strings (RFC 4648)",
+    href: "/base32-encoder",
+    icon: "B32",
+  },
+  {
+    name: "XML to JSON",
+    desc: "Convert XML to JSON and JSON to XML with attributes",
+    href: "/xml-to-json",
+    icon: "X>J",
+  },
 ];
 
 export default function Home() {
