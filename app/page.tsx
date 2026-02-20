@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useState, useMemo } from "react";
 
 const tools = [
   {
@@ -514,19 +517,47 @@ const tools = [
 ];
 
 export default function Home() {
+  const [search, setSearch] = useState("");
+
+  const filtered = useMemo(() => {
+    if (!search.trim()) return tools;
+    const q = search.toLowerCase();
+    return tools.filter(
+      (t) =>
+        t.name.toLowerCase().includes(q) ||
+        t.desc.toLowerCase().includes(q) ||
+        t.href.toLowerCase().includes(q)
+    );
+  }, [search]);
+
   return (
     <div>
       <section className="text-center py-12">
         <h1 className="text-4xl font-bold tracking-tight mb-4">
           Free Developer Tools
         </h1>
-        <p className="text-lg text-[var(--muted)] max-w-xl mx-auto">
+        <p className="text-lg text-[var(--muted)] max-w-xl mx-auto mb-6">
           Fast, free, privacy-first utilities that run entirely in your browser.
           No data leaves your machine.
         </p>
+        <div className="max-w-md mx-auto">
+          <input
+            type="text"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="Search 85 tools..."
+            className="w-full rounded-lg bg-[var(--card)] border border-[var(--border)] px-4 py-3 text-sm placeholder:text-[var(--muted)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)]"
+            autoFocus
+          />
+          {search && (
+            <p className="text-xs text-[var(--muted)] mt-2">
+              {filtered.length} tool{filtered.length !== 1 ? "s" : ""} found
+            </p>
+          )}
+        </div>
       </section>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {tools.map((t) => (
+        {filtered.map((t) => (
           <Link key={t.href} href={t.href} className="tool-card block group">
             <div className="text-2xl font-mono mb-3 text-[var(--accent)] opacity-70 group-hover:opacity-100 transition-opacity">
               {t.icon}
