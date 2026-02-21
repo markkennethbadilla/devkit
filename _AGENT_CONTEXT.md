@@ -1,6 +1,6 @@
 # DevKit — Agent Context (Living Document)
 
-> Last updated: 2026-02-23
+> Last updated: 2026-02-21
 
 ## Overview
 SEO-optimized developer tools site for passive ad revenue. All tools run client-side (privacy-first, no backend).
@@ -8,13 +8,24 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 ## Architecture
 - **Framework:** Next.js 15.5.12, App Router, TypeScript, Tailwind CSS v4
 - **Hosting:** Vercel free tier (project: `iammkb2002s-projects/devkit`)
-- **Domain:** https://tools.elunari.uk (CNAME → cname.vercel-dns.com on Cloudflare)
+- **Domains:** https://tools.elunari.uk + https://elunari.uk (root domain alias)
 - **Package manager:** Bun (aliased over npm on this machine)
 
 ## Deployment
 - Deploy: `cd E:\devkit; npx vercel --prod --yes`
-- Production URL: https://tools.elunari.uk
+- Production URLs: https://tools.elunari.uk, https://elunari.uk
 - Vercel alias: https://devkit-dusky.vercel.app (legacy)
+
+## Monetization
+- **Google AdSense:** Publisher ID `pub-7465302364385209` (account: iammkb2002@gmail.com)
+  - Site: elunari.uk — VERIFIED ✅, review requested, status: "Getting ready"
+  - AdSense script in `<head>` of layout.tsx
+  - ads.txt at `/ads.txt` (public/ads.txt)
+  - Google CMP consent message enabled (2-choice: Consent + Manage options)
+  - Payment info: INCOMPLETE (needs user's physical address)
+- **Buy Me a Coffee:** buymeacoffee.com/moonlitcapy (account: iammkb2002@gmail.com)
+  - Footer link: "☕ Support DevKit"
+  - Profile setup: INCOMPLETE (needs profile picture — Playwright can't upload files)
 
 ## Current Tools (85)
 1. `/json-formatter` — Format, validate, minify JSON
@@ -116,7 +127,7 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 - [x] JSON-LD structured data (WebSite + SoftwareApplication schemas on all 85 tool pages)
 - [x] IndexNow submitted (87 URLs) for faster Bing indexing
 - [x] IndexNow key file at /e7f3a9b2d4c6e8f0a1b3c5d7e9f1a3b5.txt
-- [ ] Google AdSense application (apply when security flag clears)
+- [x] Google AdSense — applied, site verified, review requested (status: Getting ready)
 
 ## Key Files
 - `app/layout.tsx` — Root layout, nav, footer, SEO metadata
@@ -131,12 +142,13 @@ SEO-optimized developer tools site for passive ad revenue. All tools run client-
 - Zone ID: 8c3f9abbb9692c80eef73c1311fed53d
 - Account ID: f851ceb5caf5a9255fc74cd1b3292f01
 - DNS: CNAME `tools` → `cname.vercel-dns.com` (DNS only, not proxied)
+- DNS: CNAME `@` → `cname.vercel-dns.com` (root domain, DNS only)
 
 ## Next Steps
+- Wait for AdSense review to complete (can take days/weeks)
+- Complete AdSense payment info (user needs to enter address)
+- Complete BMC profile setup (user needs to upload profile picture)
 - Wait for security review to clear (1-2 weeks)
-- Apply for Google AdSense when security flag clears
 - Add Open Graph images per tool
-- Re-submit sitemap to GSC for 52 URLs
 - Monitor traffic via Vercel Analytics
-- Consider adding a second content site for more SEO surface
-- Diversify: Gumroad product, social media content, affiliate links
+- Consider adding Gumroad digital products, affiliate links
